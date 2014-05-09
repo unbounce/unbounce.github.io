@@ -3,18 +3,53 @@ layout: default
 ---
 
 <div class="home">
+  <div class="index-grid">
+    <div class="grid-row">
+      <div class="project" id="area-codex">
+        <h2>area-codex</h2>
+        <h3>Ruby</h2>
+        <p>A ruby gem for determining whether or not a given phone area code is in a particular country or region</p>
+      </div>
 
-  <h1>Posts</h1>
+      <div class="project" id="messenger">
+        <h2>messenger</h2>
+        <h3>Ruby</h2>
+        <p>A modular inter-service messenger</p>
+      </div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="clearfix"></div>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="grid-row">
+      <div class="project" id="hashshashin">
+        <h2>hashshashin</h2>
+        <h3>Ruby</h2>
+        <p>A Ruby hash delegator gem that adds useful Hash functionality like recursive methods</p>
+      </div>
 
+      <div class="project" id="hipchat-emoticons">
+        <h2>hipchat-emoticons</h2>
+        <h3>Hipchat</h2>
+        <p>A repository of custom HipChat emoticons used at Unbounce</p>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="grid-row">
+      <div class="project" id="styleguide">
+        <h2>styleguide</h2>
+        <h3>Ruby</h2>
+        <p>How we write code</p>
+      </div>
+
+      <div class="project" id="web-breaker">
+        <h2>web-breaker</h2>
+        <h3>Ruby</h2>
+        <p>A breaker switch for external services</p>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
 </div>
