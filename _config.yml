@@ -9,3 +9,6 @@ url: "http://unbounce.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sass:
+  style: :compressed
