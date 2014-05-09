@@ -67,11 +67,13 @@
 
 .colophon-wrap {
   background-color: #EEEEEE;
-  bottom: 0;
   color: #666;
   font-size: 0.8em;
   padding: 4px 0px;
-  position: absolute;
+  bottom: 0;
+  height: 22px;
+  margin: 0 auto;
+  position: fixed;
   width: 100%;
 
   .wrap {
