@@ -1,6 +1,8 @@
 ---
 ---
 
+/* Site header */
+
 .site-header {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -13,7 +15,7 @@
 
 .unbounce-header {
   background-color: #000;
-  min-height: 56px;
+  min-height: 61px;
 
   #logo {
     float: left;
@@ -24,23 +26,39 @@
   }
 }
 
+.site-nav {
+  float: right;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    margin-left: 20px;
+    color: #727272;
+    letter-spacing: -.5px;
+    line-height: 61px;
+  }
+}
 
 .site-title {
   display: block;
   float: left;
   letter-spacing: -1px;
-  margin: 24px 0px;
+  margin: 32px 0px;
   position: relative;
   z-index: 1;
 
   a {
     display: block;
     font-size: 72px;
+    font-weight: bold;
     line-height: 86px;
     text-decoration: none;
 
     &.small {
       font-size: 36px;
+      font-weight: normal;
       line-height: 48px;
       margin-top: -12px;
     }

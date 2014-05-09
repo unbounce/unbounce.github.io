@@ -38,20 +38,8 @@ a:visited { color: #205caa; }
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
-/* Site header */
 
-.site-nav {
-  float: right;
-  line-height: 56px;
-}
 
-.site-nav .menu-icon { display: none; }
-
-.site-nav .page-link {
-  margin-left: 20px;
-  color: #727272;
-  letter-spacing: -.5px;
-}
 
 /* Site footer */
 
