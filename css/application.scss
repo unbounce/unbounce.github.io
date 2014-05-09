@@ -1,0 +1,48 @@
+---
+---
+
+.site-header {
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  background-color: white;
+
+  .meta-header {
+    background-color: #000;
+  }
+}
+
+.unbounce-header {
+  background-color: #000;
+  min-height: 56px;
+
+  #logo {
+    float: left;
+
+    img {
+      margin-top: 11px;
+    }
+  }
+}
+
+
+.site-title {
+  display: block;
+  float: left;
+  letter-spacing: -1px;
+  margin: 24px 0px;
+  position: relative;
+  z-index: 1;
+
+  a {
+    display: block;
+    font-size: 72px;
+    line-height: 86px;
+    text-decoration: none;
+
+    &.small {
+      font-size: 36px;
+      line-height: 48px;
+      margin-top: -12px;
+    }
+  }
+}
