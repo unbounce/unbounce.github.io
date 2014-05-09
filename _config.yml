@@ -5,6 +5,7 @@ email: opensource@unbounce.com
 description: ""
 baseurl: ""
 url: "http://unbounce.com"
+username: unbounce
 
 # Build settings
 markdown: kramdown
