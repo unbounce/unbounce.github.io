@@ -20,7 +20,7 @@
           </svg>
         </a>
         <div class="trigger">
-          <a class="page-link" href="{{ 'about' | prepend: site.baseurl }}">About</a>
+          <a class="page-link" href="{{ '/about' | prepend: site.baseurl }}">About</a>
         </div>
       </nav>
     </div>
@@ -28,10 +28,9 @@
 
   <div class="wrap">
     <div class="site-title">
-      <a class="" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <a class="small" href="{{ site.baseurl }}/">{{ site.subtitle }}</a>
+      <a class="" href="{{ site.baseurl }}/" id="site-title">{{ site.title }}</a>
+      <a class="small" href="{{ site.baseurl }}/" id="site-subtitle">{{ site.subtitle }}</a>
     </div>
-
   </div>
 </header>
 
