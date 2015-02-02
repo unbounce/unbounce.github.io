@@ -1,14 +1,15 @@
 var radar_title = "February 2015";
-document.title = "Unbounce Technology Radar | " + radar_title;
+var radar_sub_title = "technology radar";
+var radar_page_title = "Unbounce Technology Radar | " + radar_title;
 
 var radar_arcs = [
-                   {'r':100,'name':'Using'}
-                  ,{'r':200,'name':'Adopting'}
-                  ,{'r':300,'name':'Considering'}
-                  ,{'r':400,'name':'Retiring'}
+                   {'r':400,'name':'Retiring','f':'#999'}
+                  ,{'r':300,'name':'Considering','f':'#bbb'}
+                  ,{'r':200,'name':'Adopting','f':'#ddd'}
+                  ,{'r':100,'name':'Using','f':'#fff'}
                  ];
 
-var h = 800;
+var h = 900;
 var w = 1200;
 
 var radar_data = [
