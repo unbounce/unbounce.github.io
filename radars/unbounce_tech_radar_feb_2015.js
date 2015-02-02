@@ -6,7 +6,7 @@ var radar_arcs = [
                   {'r':100,'name':'Using','f':'#fff'},
                   {'r':200,'name':'Adopting','f':'#ddd'},
                   {'r':300,'name':'Considering','f':'#bbb'},
-                  {'r':400,'name':'Retiring','f':'#999'}
+                  {'r':400,'name':'Retiring','f':'#aaa'}
                  ];
 
 var h = 900;
