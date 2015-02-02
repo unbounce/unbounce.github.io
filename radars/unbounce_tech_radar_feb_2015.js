@@ -3,10 +3,10 @@ var radar_sub_title = "technology radar";
 var radar_page_title = "Unbounce Technology Radar | " + radar_title;
 
 var radar_arcs = [
-                   {'r':400,'name':'Retiring','f':'#999'}
-                  ,{'r':300,'name':'Considering','f':'#bbb'}
-                  ,{'r':200,'name':'Adopting','f':'#ddd'}
-                  ,{'r':100,'name':'Using','f':'#fff'}
+                  {'r':100,'name':'Using','f':'#fff'},
+                  {'r':200,'name':'Adopting','f':'#ddd'},
+                  {'r':300,'name':'Considering','f':'#bbb'},
+                  {'r':400,'name':'Retiring','f':'#999'}
                  ];
 
 var h = 900;
@@ -61,7 +61,7 @@ var radar_data = [
                 "text":"We are currently rewriting part of our front-end (script manager) in CoffeeScript, as a standalone application. This will allow us to untangle the front-end components from the back-end, currently provided by Ruby on Rails."},
                {"name":"Pure/ClojureScript", "pc":{"r":250,"t":45},
                 "text":"In order to improve the quality of our front-end, we are investigating alternative languages like PureScript or ClojureScript, as an alternative to JavaScript. We expect that such languages will simplify the evolution of the front-end by increasing the guarantees of correctness and providing more powerful coding constructs."},
-               {"name":"Vert.x 2", "pc":{"r":350,"t":45},
+               {"name":"Vert.x", "pc":{"r":350,"t":45},
                 "text":"Our primary interest in Vert.x was its support for polyglot development. Our ambition was to have our Ruby and Java developers build Vert.x modules that we would compose in large applications. I turned out that, despite tremendous efforts, polyglot development is a goal that is hard to reach. The main stumbling block was the crudity of the developers’ tools for Ruby developers. Though ruby-maven was a great help, developing Vert.x applications in Ruby was a very painful experience."}
                ]
 },
