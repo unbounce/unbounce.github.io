@@ -27,11 +27,11 @@ var radar_data = [
                 "text":"This is our primary CDN provider."},
                {"name":"SNS & SQS", "pc":{"r":75,"t":112},
                 "text":"We are using these messaging technologies heavily as part of our effort to decouple our different applications and services. Our usage of SNS and SQS is expected to grow as we evolve our architecture towards an event-driven and service-oriented architecture."},
-               {"name":"VPC", "pc":{"r":150,"t":135},
+               {"name":"VPC", "pc":{"r":75,"t":157},
                 "text":"Moving to VPC is an important step in our effort to improve the security of our deployments and also to gain a better control of our networking topology, which will become essential as we’re moving towards an architecture with many distributed components."},
-               {"name":"Lambda", "pc":{"r":250,"t":112},
+               {"name":"Lambda", "pc":{"r":150,"t":135},
                 "text":"We have started to experiment with Lambda, mainly to react to changes in S3 buckets. If it becomes possible to subscribe to SQS queues, we expect our usage of it to increase, as it would allow us to roll out complex messaging topologies without the need to deploy complete applications."},
-               {"name":"Multi-Cloud", "pc":{"r":250,"t":167},
+               {"name":"Multi-Cloud", "pc":{"r":250,"t":135},
                 "text":"Currently, Amazon is our sole cloud provider. We are considering moving towards a multi-cloud deployment for our most critical infrastructure (page server) in order to guarantee the best possible uptime."}
                ]
 },
