@@ -113,8 +113,8 @@ var radar_data = [
                 "text":"We’ve started to use Dynamo as an alternative data store for applications that have a simple data model, do not need the relational aspect of an RDBMS and need very fast data access. We use it mainly for workflow state persistence and front-end version lookups."},
                {"name":"AWS ElastiCache", "pc":{"r":75,"t":340},
                 "text":"Used for Memcached and Redis, which we respectively use for the caching needs of our Rails monolithic application and the persistence needs of Sidekiq. As we’re moving away from these technologies, we are not expecting our usage of ElastiCache to increase."},
-               {"name":"Mode", "pc":{"r":75,"t":315},
-                "text":"Mode is a platform for data analysis and collaboration. It sits on top of our MySQL and Redshift based data warehouse, and allows our analysts to create and share SQL based queries and analyses. We also use mode to share reports, charts, metrics, KPIs, and alerts with everyone in the company."},
+               {"name":"Mode Analytics", "pc":{"r":75,"t":315},
+                "text":"Mode is a platform for data analysis and collaboration. It sits on top of our MySQL and Redshift based data warehouse, and allows our analysts to create and share SQL based queries and analyses. We also use Mode to share reports, charts, metrics, KPIs, and alerts with everyone in the company."},
                {"name":"AWS Redshift", "pc":{"r":150,"t":285},
                 "text":"Redshift is a hosted distributed relational DB store, optimized for OLAP workloads. We are adopting it to store all our event data, and hooking it up to existing SQL based BI analytics tools."},
                {"name":"Apache Spark", "pc":{"r":150,"t":315},
@@ -125,8 +125,8 @@ var radar_data = [
                 "text":"Currently in preview, this recently introduced MySQL-compatible database from Amazon looks very promising. We're interested by the level of management provided and pricing, which would make Aurora a compelling replacement for our MySQL servers."},
                {"name":"AWS Kinesis", "pc":{"r":250,"t":325},
                 "text":"Kinesis is basically hosted and managed Kafka: a high-throughput, distributed, short term (24 hour) durable pub-sub queue. It is under evaluation for our analytics pipelines, which consume and compute on batch and micro batch intervals."},
-               {"name":"AWS Data Pipeline", "pc":{"r":250,"t":345},
-                "text":"AWS Data Pipeline is a hosted platform that handles defining and executing complex data workflows. We are considering it for stitching together our Spark and SQL based ETL jobs that feed our data warehouse and third party systems."},
+               {"name":"Sense.io", "pc":{"r":250,"t":345},
+                "text":"Sense.io is a unified cloud data platform. We use it to deploy, run, and scale our SQL and Spark based data workflows and ETL pipelines. We also use it to store, run, and share our IPython and R based data analyses."}
                ]
 }
 ];
