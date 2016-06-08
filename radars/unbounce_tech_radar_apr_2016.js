@@ -36,7 +36,9 @@ var radar_data = [
                {"name":"Kinesis Streams and Firehose", "pc":{"r":150,"t":135},
                 "text":"We're replumbing our stats system using Kinesis Streams."},
                {"name":"Multi-Cloud", "pc":{"r":250,"t":167},
-                "text":"Currently, Amazon is our sole cloud provider. We are considering moving towards a multi-cloud deployment for our most critical infrastructure (page server) in order to guarantee the best possible uptime."}
+                "text":"Currently, Amazon is our sole cloud provider. We are considering moving towards a multi-cloud deployment for our most critical infrastructure (page server) in order to guarantee the best possible uptime."},
+               {"name":"EC2 Spot Fleets", "pc":{"r":250,"t":134},
+                "text": "We are looking to utilize EC2 spot fleets to reduce ongoing costs and scale without incurring large costs."}
                ]
 },
 {
@@ -91,24 +93,22 @@ var radar_data = [
                 "text":"We are using CloudFormation (and Troposphere) to automate the creation, configuration and deployment of our cloud infrastructure and software. We don’t have a 100% adoption on all our products yet but several critical production systems are already using it."},
                {"name":"SumoLogic", "pc":{"r":150,"t":225},
                 "text":"SumoLogic is a very promising alternative to our self-hosted ElasticSearch. It provides a wide range of consumers (including straight-in SNS) and an excellent web UI. We are using it to aggregate all application logs, including page server access logs. We are expanding its use for monitoring events that are broadcast to SNS. It is a supporting actor of our architecture evolution towards distributed lowly-coupled services."},
-               {"name":"Terraform", "pc":{"r":50,"t":225},
+               {"name":"Terraform", "pc":{"r":250,"t":225},
                 "text":"Terraform is a tool to manage and create infrastructure as code. We would like to investigate using it as a tool to manage our AWS infrastructure components through CloudFormation. "},
-               {"name":"Docker", "pc":{"r":50,"t":225},
+               {"name":"Docker", "pc":{"r":90,"t":225},
                 "text":"We are currently experimenting with Docker as tool for allowing developers to easily run applications and services on their machines, which traditionally implied having to install Ruby, Rake, Java, Maven, ... and deal with the particularities of each project. We still have to investigate using Docker for production deployments."},
-               {"name":"Consul", "pc":{"r":250,"t":234},
+               {"name":"Consul", "pc":{"r":250,"t":244},
                 "text":"We are planning to investigate Consul as a potential platform for configuration and cluster management. We're also considering it for our service registry."},
-               {"name":"ElasticSearch", "pc":{"r":350,"t":234},
+               {"name":"ElasticSearch", "pc":{"r":350,"t":204},
                 "text":"We are retiring our deployment of ElasticSearch in favour of SumoLogic. After running it in production for almost a year, we’ve reached the point where the amount of pain we get from operating it surpasses its benefits. We were only using it to aggregate the access logs from our page servers."},
-               {"name":"Go", "pc":{"r":150,"t":225},
+               {"name":"Go", "pc":{"r":170,"t":225},
                 "text": "We are starting to write some internal tooling in Go to reduce dependencies on language runtimes and third-party libraries."},
                {"name":"Sensu", "pc":{"r":250,"t":234},
                 "text": "While we use Scout for monitoring, we are also looking for more and Sensu looks like it can provide that information."},
-               {"name":"Grafana", "pc":{"r":250,"t":234},
+               {"name":"Grafana", "pc":{"r":220,"t":234},
                 "text": "We are considering Grafana as a central place to display metrics from various sources."},
-               {"name":"OpsGenie", "pc":{"r":50,"t":225},
+               {"name":"OpsGenie", "pc":{"r":20,"t":225},
                 "text": "We route all metric alarms through OpsGenie which then send alerts to our team member's phones."},
-               {"name":"EC2 Spot Fleets", "pc":{"r":250,"t":234},
-                "text": "We are looking to utilize EC2 spot fleets to reduce ongoing costs and scale without incurring large costs."}
                ]
 },
 {
