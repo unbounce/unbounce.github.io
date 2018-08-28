@@ -1,8 +1,8 @@
-var radar_title = "April 2016";
+var radar_title = "April 2017";
 var radar_sub_title = "technology radar";
 var radar_page_title = "Unbounce Technology Radar | " + radar_title;
 var radar_authors = [ "Tavis Rudd", "Carl Schmidt", "Martin Suchanek", "Mike Thorpe" ];
-var previous_radar = 'aug_2015';
+var previous_radar = 'aug_2016';
 
 var radar_arcs = [
                   {'r':100,'name':'Using','f':'#fff'},
